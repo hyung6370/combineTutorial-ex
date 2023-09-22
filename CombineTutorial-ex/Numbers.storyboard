@@ -10,7 +10,7 @@
         <!--Adding numbers-->
         <scene sceneID="977-cj-ZiQ">
             <objects>
-                <viewController id="EJQ-aK-fJl" customClass="NumbersViewController" customModule="CombineTutorial_ex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NumbersViewController" id="EJQ-aK-fJl" customClass="NumbersViewController" customModule="CombineTutorial_ex" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J4M-r7-KdP"/>
                         <viewControllerLayoutGuide type="bottom" id="CGO-hD-fWA"/>

@@ -16,6 +16,9 @@
 		BD9727FD2ABD2C18007B679A /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BD9727FC2ABD2C18007B679A /* CombineCocoa */; };
 		BD9727FF2ABD2C7A007B679A /* Numbers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9727FE2ABD2C7A007B679A /* Numbers.storyboard */; };
 		BD9728012ABD2CA4007B679A /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9728002ABD2CA4007B679A /* NumbersViewController.swift */; };
+		BD9728032ABD363F007B679A /* UIVIewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9728022ABD363F007B679A /* UIVIewController+Ext.swift */; };
+		BD9728052ABD3DC3007B679A /* NumbersSwiftUIContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9728042ABD3DC3007B679A /* NumbersSwiftUIContainerVC.swift */; };
+		BD9728072ABD50FF007B679A /* NumbersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9728062ABD50FF007B679A /* NumbersVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		BD9727F52ABD2B93007B679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD9727FE2ABD2C7A007B679A /* Numbers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Numbers.storyboard; sourceTree = "<group>"; };
 		BD9728002ABD2CA4007B679A /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		BD9728022ABD363F007B679A /* UIVIewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Ext.swift"; sourceTree = "<group>"; };
+		BD9728042ABD3DC3007B679A /* NumbersSwiftUIContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersSwiftUIContainerVC.swift; sourceTree = "<group>"; };
+		BD9728062ABD50FF007B679A /* NumbersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 				BD9727F52ABD2B93007B679A /* Info.plist */,
 				BD9727FE2ABD2C7A007B679A /* Numbers.storyboard */,
 				BD9728002ABD2CA4007B679A /* NumbersViewController.swift */,
+				BD9728022ABD363F007B679A /* UIVIewController+Ext.swift */,
+				BD9728042ABD3DC3007B679A /* NumbersSwiftUIContainerVC.swift */,
+				BD9728062ABD50FF007B679A /* NumbersVM.swift */,
 			);
 			path = "CombineTutorial-ex";
 			sourceTree = "<group>";
@@ -154,9 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9727EC2ABD2B90007B679A /* ViewController.swift in Sources */,
+				BD9728052ABD3DC3007B679A /* NumbersSwiftUIContainerVC.swift in Sources */,
 				BD9728012ABD2CA4007B679A /* NumbersViewController.swift in Sources */,
+				BD9728032ABD363F007B679A /* UIVIewController+Ext.swift in Sources */,
 				BD9727E82ABD2B90007B679A /* AppDelegate.swift in Sources */,
 				BD9727EA2ABD2B90007B679A /* SceneDelegate.swift in Sources */,
+				BD9728072ABD50FF007B679A /* NumbersVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
